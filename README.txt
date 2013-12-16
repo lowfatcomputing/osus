@@ -14,6 +14,9 @@ SUSs were first considered in [2]. However,
 
 This program implements the algorithm proposed in the paper [1], which
 computes the lmSUS for all positions of the input string, in O(N) time.
+(For strange reasons, we have changed the name of the implementation 
+ from TSUS to OSUS ;-P)
+
 The algorithm can also compute all SUSs for any given position p in O(k)
 time, where k is the number of SUSs at position p, if we are allowed O(N) 
 time pre-processing of the string. 
